@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Force LF on all text source / config / docs — avoids the CRLF
+# round-trip noise Windows checkouts otherwise introduce.
+*.rs       text eol=lf
+*.toml     text eol=lf
+*.md       text eol=lf
+LICENSE    text eol=lf
+NOTICE     text eol=lf
+.gitignore text eol=lf
